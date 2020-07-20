@@ -3,6 +3,12 @@ import math
 
 
 def calcProb(obs, todays_latent_state=None):
+    """
+
+    :param obs:
+    :param todays_latent_state:
+    :return:
+    """
     # 1=happy
     # 0=grumpy
     # obs = [H,G,G,G,H...] == [1,0,0,0,1....]
